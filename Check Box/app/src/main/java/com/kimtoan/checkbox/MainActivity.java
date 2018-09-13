@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if( isChecked){
-                    Toast.makeText(MainActivity.this, "You Are choosing Android",Toast.LENGTH_SHORT);
+                    Toast.makeText(MainActivity.this, "You Are choosing Android",Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if( isChecked){
-                    Toast.makeText(MainActivity.this, "You Are choosing IOS",Toast.LENGTH_SHORT);
+                    Toast.makeText(MainActivity.this, "You Are choosing IOS",Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if( isChecked){
-                    Toast.makeText(MainActivity.this, "You Are choosing PHP",Toast.LENGTH_SHORT);
+                    Toast.makeText(MainActivity.this, "You Are choosing PHP",Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
                     lesson += cbPHP.getText() + "\n";
                 }
 
-                Toast.makeText(MainActivity.this, lesson, Toast.LENGTH_SHORT);
+                Toast.makeText(MainActivity.this, lesson, Toast.LENGTH_SHORT).show();
 
             }
         });
