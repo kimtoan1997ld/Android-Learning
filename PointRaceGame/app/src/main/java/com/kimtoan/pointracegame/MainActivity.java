@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
 
-                if(cbOne.isChecked()|| cbTwo.isChecked()|| cbThree.isChecked() == false)
+                if(cbOne.isChecked()|| cbTwo.isChecked()|| cbThree.isChecked())
                 {
                     skOne.setProgress(0);
                     skTwo.setProgress(0);
